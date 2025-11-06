@@ -27,6 +27,6 @@ links.forEach(link => {
         navlink.classList.remove("active");
     });
 });
-
+ 
 
 

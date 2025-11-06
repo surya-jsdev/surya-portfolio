@@ -24,9 +24,10 @@ header {
     top: 0;
     z-index: 1000;
 }
-   .menu{
-       display: none;
-    }
+
+.menu {
+    display: none;
+}
 
 /* Logo */
 .logo {
@@ -392,13 +393,11 @@ section>h2 {
 .aboutcontent .profileimg {
     margin: 35px 10px 0 0;
     transition: 0.3s all;
-    border-radius: 50%;
 }
 
 .profileimg img {
     width: 400px;
     height: 550px;
-    border-radius: 50%;
 }
 
 .profileimg:hover {
@@ -424,7 +423,7 @@ section>h2 {
 /* contact Section */
 .contact_section {
     width: 100%;
-    height: auto;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -459,7 +458,6 @@ section>h2 {
     gap: 25px;
     margin: 50px 0;
     padding: 5px;
-    /* background-color: #ff9800; */
 }
 
 .info .contacticon a {
