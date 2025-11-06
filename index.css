@@ -402,7 +402,7 @@ section>h2 {
 
 .profileimg:hover {
     box-shadow: 0px 10px 20px 10px #4a4b4b51;
-    transform: translateY(-20px);
+    transform: translateY(-20px) skew(10deg);
 }
 
 .aboutcontent .para {
@@ -411,7 +411,7 @@ section>h2 {
 }
 
 .para p {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins, sans-serif";
     font-weight: 400;
     font-style: normal;
     font-size: 1.3em;
@@ -455,15 +455,33 @@ section>h2 {
     display: flex;
     flex-direction: column;
     align-content: space-between;
-    gap: 25px;
-    margin: 50px 0;
-    padding: 5px;
+    /* padding: 5px; */
 }
 
-.info .contacticon a {
-    color: black;
-    text-decoration: none;
+.contact_content div p {
     font-size: 1.2em;
+}
+
+.contacticon ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contacticon ul li {
+    list-style: none;
+}
+
+.contacticon ul a i {
+    padding: 0 30px;
+    font-size: 20px;
+}
+
+.contacticon ul li a {
+    text-decoration: none;
+    padding: 0 20px 0 5px;
+    font-size: 20px;
+    color: #148ab5ce;
 }
 
 .contactform {
@@ -489,9 +507,16 @@ section>h2 {
 }
 
 .form input {
+    border-radius: 3px;
+    border: none;
+    outline: 1px solid gray;
     padding: 15px;
     width: 350px;
     margin: 20px 0 0 0;
+}
+
+.form textarea {
+    padding: 15px;
 }
 
 .form button {
@@ -501,8 +526,10 @@ section>h2 {
     margin: 50px 0;
     background-color: #1b9cc7;
     color: white;
+    font-size: 1.2em;
 }
 
 .form input:focus {
-    box-shadow: 0 0 10px 10px rgba(22, 141, 188, 0.2);
+    box-shadow: 0 0 5px 5px rgb(57, 106, 123, 0.8);
+    border: none;
 }
