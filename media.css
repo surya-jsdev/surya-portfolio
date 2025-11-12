@@ -192,6 +192,49 @@
         height: auto;
     }
 
+    /* project */
+    .project-section .project-container {
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: 80px 0;
+        font-size: clamp(1em, 5vw, 2em);
+    }
+
+    .myprojects {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+        /* background-color: #7b3511; */
+    }
+
+    .project-01 {
+        display: block;
+        margin: 30px 10px;
+        background: url("./image/project-01.png") no-repeat center/cover;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+
+    .project-01::before {
+        border-radius: none;
+        position: absolute;
+        content: "";
+        left: 0;
+        background-color: #04040490;
+        border-radius: 10px;
+        width: 300px;
+        height: 300px;
+    }
+
     .aboutme {
         min-width: 100%;
         height: auto;
@@ -446,7 +489,7 @@
         width: 80%;
         height: auto;
         display: flex;
-        justify-content:center;
+        justify-content: center;
         align-items: center;
     }
 
